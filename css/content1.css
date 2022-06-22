@@ -430,6 +430,7 @@ header .nav__button{
 }
 
 .our-management .inner ul.managements > li {
+  
   float: left;
   width: 300px;
   height: auto;
@@ -437,10 +438,10 @@ header .nav__button{
 }
 
 .our-management .inner ul.managements > li .image {
-  height: 330px;
 }
 
 .our-management .inner ul.managements > li img {
+  padding: 15px;
   border-radius: 50%;
   float: left;
   
@@ -449,7 +450,9 @@ header .nav__button{
   /* padding: 50px 80px 50px 80px; */
 }
 .our-management .inner ul.managements > li .text-group {
+  width: 300px;
   text-align: center;
+  padding: 10px;
 }
 
 .our-management .inner ul.managements > li .text-group h2 {
