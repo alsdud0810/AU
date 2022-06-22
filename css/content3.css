@@ -793,6 +793,7 @@ textarea {
   }
 
   .aboutus-header .inner2 .title-wrapper {
+    background-size: cover;
     position: relative;
     height: 350px;
     width: 100%;
