@@ -453,9 +453,9 @@ header .nav__button{
   /* padding: 50px 80px 50px 80px; */
 }
 .our-management .inner ul.managements > li .text-group {
-  width: 330px;
+  width: 300px;
   text-align: center;
-  padding: 10px;
+  padding: 30px;
 }
 
 .our-management .inner ul.managements > li .text-group h2 {
