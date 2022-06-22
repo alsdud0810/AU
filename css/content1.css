@@ -253,7 +253,9 @@ header .nav__button{
 }
 
 .aboutus-header .inner2 .title-wrapper {
-  background-color: rgb(69, 48, 138);
+  background-image: url(../images/aboutus-background6.jpg);
+  background-size: auto 750px;
+  /* background-color: rgb(69, 48, 138); */
   /* background-image: url(../back.jpg); */
   height: 610px;
   position: relative;
