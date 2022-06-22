@@ -435,7 +435,7 @@ header .nav__button{
 .our-management .inner ul.managements > li {
   text-align: center;
   float: left;
-  width: 360px;
+  max-width: 360px;
   height: auto;
   margin: 50px 80px 50px 80px;
 }
@@ -444,10 +444,13 @@ header .nav__button{
 }
 
 .our-management .inner ul.managements > li img {
-  padding: 15px 30px;
+  position: relative;
+  /* margin: 15px 30px; */
+  margin: 0 auto;
   border-radius: 50%;
   float: left;
-  
+  width: 300px;
+  height: 300px;
   max-width: 100%;
   /* max-height: 100%; */
   /* padding: 50px 80px 50px 80px; */
@@ -455,7 +458,9 @@ header .nav__button{
 .our-management .inner ul.managements > li .text-group {
   width: 300px;
   text-align: center;
-  padding: 30px;
+  justify-content: center;
+  padding: 30px 0;
+  margin: 0 auto;
 }
 
 .our-management .inner ul.managements > li .text-group h2 {
