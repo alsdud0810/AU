@@ -98,7 +98,7 @@ header .inner .logo{
   
 }
 header .inner .logo img {
-  width: 139px;
+  width: 139.88px;
   height: 50px;
 }
 header .inner .main__nav{
@@ -113,6 +113,7 @@ header .inner .main__nav .nav{
   position: relative;
   display:flex;
   text-align: right;
+  line-height: 1.4;
   
 }
 header .inner .main__nav .nav .nav__name{
