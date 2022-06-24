@@ -23,7 +23,6 @@ hr {
   text-align: center;
 }
 
-.title-group .sub-title {}
 
 .title-group h1 {
   font-weight: 700;
@@ -144,7 +143,6 @@ header .inner .main__nav .nav .nav__name a::after{
   height: 4px;
   background-color: rgb(69, 48, 138);
   transition: all .6s;
-  /* border-radius: 0 10px 10px 0; */
 }
 header .inner .main__nav .nav .nav__name a::before{
   content:"";
@@ -155,7 +153,6 @@ header .inner .main__nav .nav .nav__name a::before{
   height: 4px;
   background-color: rgb(69, 48, 138);
   transition: all .6s;
-  /* border-radius: 10px 0 0 10px; */
 }
 header .inner .main__nav .nav .nav__name a:hover{
   color:rgba(33,33,33,0.7);
@@ -171,7 +168,6 @@ header .inner .main__nav .nav .nav__name .aboutus{
   color:rgb(69, 48, 138);
 } 
 header .inner .main__nav .nav .nav__name .solutions-nav {
-  /* display:none; */
   visibility:hidden;
   opacity:0;
   margin:10px 0 0 0;
@@ -179,7 +175,6 @@ header .inner .main__nav .nav .nav__name .solutions-nav {
   transition: all .5s;
 }
 header .inner .main__nav .nav .nav__name:hover .solutions-nav{
-  /* display:block; */
   visibility:visible;
   opacity:1;
   color:black;
@@ -253,24 +248,19 @@ header .nav__button{
 .aboutus-header .inner2 .title-wrapper {
   background-image: url(../images/aboutus-background8.jpg);
   background-size: cover;
-  /* background-color: #7B68EE; */
   height: 610px;
   position: relative;
 }
 
 .aboutus-header .inner2 .title-wrapper .title {
-  /* width: 1100px;
-  margin: 0 auto; */
   height: 100px;
   width: 500px;
   position: absolute;
-  /* background-color: royalblue; */
   top: 0;
   bottom: -15%;
   left: 0;
   right: 0;
   margin: auto;
-
 }
 
 .aboutus-header .inner2 .title-wrapper .title h1 {
@@ -281,18 +271,15 @@ header .nav__button{
 }
 
 .aboutus-header .inner2 .title-wrapper .aboutus-wrapper {
-  /* background-color: #333; */
   background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
   width: 100%;
   height: 60px;
   bottom: 0;
-  /* margin: auto; */
 }
 
 
 .aboutus-header .inner2 .title-wrapper .aboutus-wrapper ul.aboutus-menu {
-  /* background-color: #333; */
   margin: auto;
   height: 100%;
   width: 100%;
@@ -310,7 +297,6 @@ header .nav__button{
 }
 
 .aboutus-header .inner2 .title-wrapper .aboutus-wrapper ul.aboutus-menu>li:hover {
-  /* background-color: white; */
   background-color: rgba(245, 241, 241, 0.5);
 }
 
@@ -337,8 +323,6 @@ header .nav__button{
 
 /* HISTORY */
 
-.history {}
-
 .history-page {
   max-width: 1100px;
   height: auto;
@@ -359,8 +343,6 @@ header .nav__button{
   width: auto;
   text-align: center;
 }
-
-.history-list-box {}
 
 .history-list-box .history-year-box {
   position: relative;
@@ -471,8 +453,6 @@ header .nav__button{
 
 /* 수상내역 */
 
-.awards {}
-
 .awards .inner {
   height: 700px;
   padding: 20px 0 100px 0;
@@ -519,81 +499,6 @@ header .nav__button{
   padding: 30px 10px;
 }
 
-.awards .swiper-pagination {}
-
-
-
-
-/* Contact us */
-/* .contact{
-  position: relative;
-  width:100%;
-  
-  height:700px;
-  background-color: midnightblue;
-}
-
-.contact .inner .contact__frame{
-  justify-content: center;
-  position: absolute;
-  height:450px;
-  width:100%;
-  margin:80px 0;
-  color:white;
-  font-weight: bold;
-  display:flex;
-}
-.contact .inner .contact__frame .contact__frame__left .title{
-  white-space:nowrap;
-}
-.contact .inner .contact__frame .table{
-  font-size: 25px;
-  margin-left:200px;
-}
-.contact .inner .contact__frame .title{
-  font-size:50px;
-  
-}
-.contact .inner .contact__frame .mail{
-  margin-top:10px;
-  font-size:20px;
-}
-.contact .inner .contact__frame .number{
-  font-size:20px;
-}
-.contact .inner .contact__frame .name__all{
-  display:flex;
-  font-size:16px;
-  margin-bottom:10px;
-}
-.contact .inner .contact__frame .guest__email{
-  margin-bottom:10px;
-}
-.contact .inner .contact__frame .message{
-  margin-bottom:10px;
-}
-.contact .inner .contact__frame .name__all .name__first{
-  margin-right:10px;
-}
-input{
-  width:250px;
-  height:40px;
-}
-.guest__email input{
-  width:518px;
-}
-
-textarea {
-  width:518px;
-  min-height: 100px;
-  resize: vertical;
-}
-
-.middle .contact .inner .contact__frame .table .click .button{
-
-  border-radius: 10px;
-} */
-
 /* footer */
 footer {
   background-color: rgb(69, 48, 138);
@@ -606,8 +511,7 @@ footer .inner {
   color: white;
   font-family: 'Nanum Gothic';
 }
-footer .inner .companyname {
-}
+
 footer .inner .companyname .eng{
   font-family: 'Secular One';
   font-size: 25px;
@@ -638,8 +542,6 @@ footer .inner .copyright{
     height: 50px;
   }
   header .inner{
-    /* z-index: 1; */
-    /* position: fixed; */
     width:100%;
     position: relative;
   }
@@ -651,26 +553,17 @@ footer .inner .copyright{
     height: 30px;
   }
   header .inner .main__nav .nav{
-    /* display:none; */
-    /* z-index: 11; */
     flex-direction: column;
     position:absolute;
     left:0;
     text-align: center;
     background-color: white;
-    /* width:100; */
     width:100%;
     height:165px;
     top:-76px;
     border-bottom:4px solid rgb(69, 48, 138);
     align-items: center;
   }
-  /* .main__nav{
-    display:none;
-  } */
-  /* header .nav.click{
-    display:block;
-  } */
   header .inner .main__nav .nav .nav__name .solutions-nav{
     display:none;
     font-size:10px;
@@ -691,7 +584,6 @@ footer .inner .copyright{
   header .inner .main__nav .nav a{
     font-size:20px;
     line-height:1.4;
-    /* top:20px; */
   }
   header .inner .main__nav .nav .nav__name .solutions-nav a{
     font-size:18px;
@@ -699,38 +591,28 @@ footer .inner .copyright{
   }
   header .inner .main__nav{
     width:100%;
-    /* height: 270px; */
     position:absolute;
     left:0;
     right:0px;
     margin:0 auto;
     top:130px;
-    /* opacity: 0; */
     display:none;
   }
   header .inner .main__nav .nav{
     position:absolute;
     left:0;
     right:0;
-    /* margin:0 auto; */
   }
   header .nav__button{
-    /* z-index: 1; */
     position: fixed;
     display:block;
     top:0;
     position: absolute;
   }
-  /* header .nav.active{
-    display:flex;
-    
-  } */
   header .inner .main__nav.active{
     display:flex;
-
   }
   header .inner .main__nav .nav .nav__name{
-    /* height:70px; */
     width:200px;
     margin: 10px;
   }
@@ -743,86 +625,15 @@ footer .inner .copyright{
   }
 
   header .inner .main__nav .nav #underline.active {
-    /* height:80px; */
     margin-bottom: 70px;
-    
-    
   }
   header .inner .main__nav .nav .nav__name a{
     color:black;
   }
-  /* header .inner .main__nav .nav .nav__name a:hover{
-    color:white;
-  }
-  header .inner .main__nav .nav .nav__name .aboutus{
-    color:#B7A4EE;
-  } */
-  #underline a:hover {
-    color: rgb(69, 48, 138);
-  }
+
   header .inner .main__nav .nav .nav__name :nth-child(1){
     margin-top:0;
   }
-  /* header .inner .main__nav .nav .nav__name .solutions-nav li a::after{
-    content:"";
-    position: absolute;
-    left: 50%;
-    bottom: -2px;
-    width: 0;
-    height: 2px;
-    background-color: white;
-  }
-  header .inner .main__nav .nav .nav__name .solutions-nav li a::before{
-    content:"";
-    position: absolute;
-    right: 50%;
-    bottom: -2px;
-    width: 0;
-    height: 2px;
-    background-color: white;
-  }
-  header .inner .main__nav .nav .nav__name .solutions-nav li a:hover::after{
-    width:50%;
-  }
-  header .inner .main__nav .nav .nav__name .solutions-nav li a:hover:before{
-    width:50%;
-  }
-  #underline .solution::after{
-    content: '';
-    display: block;
-    width: 100%;
-    height: 4px;
-    position: absolute;
-    bottom: -4px;
-    background: white;
-    left:0;
-  }
-  header .inner .main__nav .nav .nav__name a::after{
-    content:"";
-    position: absolute;
-    left: 50%;
-    bottom: -4px;
-    width: 0;
-    height: 4px;
-    background-color: white;
-    
-  }
-  header .inner .main__nav .nav .nav__name a::before{
-    content:"";
-    position: absolute;
-    right: 50%;
-    bottom: -4px;
-    width: 0;
-    height: 4px;
-    background-color: white;
-
-  }
-  header .inner .main__nav .nav .nav__name a:hover::after{
-    width:50%;
-  }
-  header .inner .main__nav .nav .nav__name a:hover::before{
-    width:50%;
-  } */
 
   /* ABOUTUS header */
   .aboutus-header .inner2 {
@@ -837,7 +648,6 @@ footer .inner .copyright{
     width: 100%;
   }
 
-  .aboutus-header .inner2 .title-wrapper {}
 
   .aboutus-header .inner2 .title-wrapper .title {
     width: 100%;
@@ -851,8 +661,6 @@ footer .inner .copyright{
 
   }
 
-  .aboutus-header .inner2 .title-wrapper .aboutus-wrapper {}
-
   .aboutus-header .inner2 .title-wrapper .aboutus-wrapper ul.aboutus-menu {
     width: 100%;
   }
@@ -864,7 +672,6 @@ footer .inner .copyright{
   .aboutus-header .inner2 .title-wrapper .aboutus-wrapper ul.aboutus-menu>li a {
     position: relative;
     width: 100%;
-    /*임의지정*/
     font-size: 15px;
   }
 
@@ -927,6 +734,8 @@ footer .inner .copyright{
     max-width: 200px;
     max-height: 200px;
   }
+
+  
   /* footer */
   footer .inner .companyname .eng{
     font-size: 30px;
