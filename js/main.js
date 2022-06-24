@@ -73,3 +73,6 @@ sol.addEventListener('click', () =>{
   twosol2.classList.toggle('active');
   twosol3.classList.toggle('active2');
 });
+
+const thisYear = document.querySelector('.this-year');
+thisYear.textContent = new Date().getFullYear();
