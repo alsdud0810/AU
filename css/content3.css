@@ -141,7 +141,7 @@ header .inner .main__nav .nav .nav__name a::after{
   left: 50%;
   bottom: -4px;
   width: 0;
-  height: 4px;
+  height: 3px;
   background-color: rgb(69, 48, 138);
   transition: all .6s;
   /* border-radius: 0 10px 10px 0; */
@@ -152,7 +152,7 @@ header .inner .main__nav .nav .nav__name a::before{
   right: 50%;
   bottom: -4px;
   width: 0;
-  height: 4px;
+  height: 3px;
   background-color: rgb(69, 48, 138);
   transition: all .6s;
   /* border-radius: 10px 0 0 10px; */
@@ -224,7 +224,7 @@ header .inner .main__nav .nav .nav__name .solutions-nav li a:hover:before{
   content: '';
   display: block;
   width: 100%;
-  height: 4px;
+  height: 3px;
   position: absolute;
   bottom: -4px;
   background: rgb(69, 48, 138);
