@@ -25,6 +25,10 @@ hr {
   text-align: center;
 }
 
+.title-group .sub-title{
+  
+}
+
 .title-group h1 {
   font-weight: 900;
   font-size: 45px;
@@ -95,8 +99,8 @@ header .inner .logo{
   
 }
 header .inner .logo img {
-  width: 139.88px;
-  height: 50px;
+  width: 117.5px;
+  height: 42px;
 }
 header .inner .main__nav{
   width:700px;
@@ -235,15 +239,20 @@ header .inner .main__nav .nav .nav__name .solutions-nav li a:hover:before{
 header .nav__button{
   position:absolute;
   right: 15px;
-  
+  width:48px;
   font-size: 24px;
   display: none;
-  top:30px;
+  /* top:30px; */
+  top:0;
+  bottom:0;
+  margin: auto 0;
 }
 
 
 /* inner2 */
+.aboutus-header {
 
+}
 .aboutus-header .inner2 {
   position: relative;
 }
@@ -251,14 +260,19 @@ header .nav__button{
 .aboutus-header .inner2 .title-wrapper {
   background-image: url(../images/aboutus-background8.jpg);
   background-size: cover;
+  /* background-color: rgb(69, 48, 138); */
+
+  /* background-image: url(../back.jpg); */
   height: 610px;
   position: relative;
 }
 
 .aboutus-header .inner2 .title-wrapper .title {
+  /*margin: 0 auto; */
   height: 100px;
   width: 500px;
   position: absolute;
+  /* background-color: royalblue; */
   top: 0;
   bottom: -15%;
   left: 0;
@@ -275,15 +289,18 @@ header .nav__button{
 }
 
 .aboutus-header .inner2 .title-wrapper .aboutus-wrapper {
+  /* background-color: #333; */
   background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
   width: 100%;
   height: 60px;
   bottom: 0;
+  /* margin: auto; */
 }
 
 
 .aboutus-header .inner2 .title-wrapper .aboutus-wrapper ul.aboutus-menu {
+  /* background-color: #333; */
   margin: auto;
   height: 100%;
   width: 100%;
@@ -301,6 +318,7 @@ header .nav__button{
 }
 
 .aboutus-header .inner2 .title-wrapper .aboutus-wrapper ul.aboutus-menu > li:hover {
+  /* background-color: white; */
   background-color: rgba(245, 241, 241, 0.5);
 }
 
@@ -322,8 +340,15 @@ header .nav__button{
   color: black;
 }
 
+.aboutus-header .inner2 .title-wrapper .aboutus-wrapper ul.aboutus-menu > li a:hover {
+}
 
 /* 회사소개(CONTENT1) */
+
+.company-overview {
+  /* background-color: orange; */
+  /* text-align: center; */
+}
 
 .company-overview .inner {
   height: auto;
@@ -331,6 +356,11 @@ header .nav__button{
   margin: 0 auto;
 }
 
+.company-overview .inner .title-group {
+  
+}
+
+.company-overview .inner .title-group .sub-title {}
 
 .company-overview .inner .title-group h1 {
   font-weight: 700;
@@ -341,7 +371,10 @@ header .nav__button{
 }
 
 .company-overview .inner .description-group {
+  /* position: absolute; */
+  /* position: relative; */
   display: flex;
+
 }
 
 .company-overview .inner .description-group .image-group {
@@ -357,14 +390,13 @@ header .nav__button{
 
 .company-overview .inner .description-group .text-group {
   width: 500px;
-  height: 400px;
+  height: auto;
   margin: 20px 50px;
   font-size: 30px;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .company-overview .inner .description-group .text-group p {
@@ -377,6 +409,10 @@ header .nav__button{
 
 
 /* OUR MANAGEMENT */
+.our-management {
+  /* background-color: #EBF5FF; */
+  /* background-color: #DEDCDF; */
+}
 
 .our-management .inner {
   width: 100%;
@@ -388,6 +424,7 @@ header .nav__button{
 .our-management .inner .title-group {
   text-align: center;
 }
+.our-management .inner .title-group .sub-title {}
 
 .our-management .inner .title-group h1 {
   font-weight: 700;
@@ -396,6 +433,7 @@ header .nav__button{
 }
 
 .our-management .inner ul.managements {
+  
   display: flex;
   justify-content: center;
   position: relative;
@@ -409,14 +447,20 @@ header .nav__button{
   margin: 50px 80px 50px 80px;
 }
 
+.our-management .inner ul.managements > li .image {
+}
+
 .our-management .inner ul.managements > li img {
   position: relative;
+  /* margin: 15px 30px; */
   margin: 0 auto;
   border-radius: 50%;
   float: left;
   width: 300px;
   height: 300px;
   max-width: 100%;
+  /* max-height: 100%; */
+  /* padding: 50px 80px 50px 80px; */
   padding: 0 0 15px 0;
 }
 .our-management .inner ul.managements > li .text-group {
@@ -439,6 +483,9 @@ header .nav__button{
 
 
 /* 경영 이념 */
+.management-philosophy {
+  /* background-color: orange; */
+}
 
 .management-philosophy .inner {
   height: auto;
@@ -450,6 +497,7 @@ header .nav__button{
   text-align: center;
 }
 
+.management-philosophy .inner .title-group .sub-title {}
 
 .management-philosophy .inner .title-group h1 {
   font-weight: 700;
@@ -458,6 +506,8 @@ header .nav__button{
 }
 
 .management-philosophy .inner .description-group {
+  /* position: absolute; */
+  /* position: relative; */
   display: flex;
 }
 
@@ -474,6 +524,14 @@ header .nav__button{
 }
 
 .management-philosophy .inner .description-group .text-group {
+  /* background-color: orange; */
+  /* font-weight: 700;
+  font-size: 30px;
+  position: absolute;
+  width:600px;
+  height: 100px;
+  right: -30px;
+  top:150px; */
   width: 500px;
   height: 400px;
   margin: 20px 50px;
@@ -492,12 +550,19 @@ header .nav__button{
 
 
 /* VISION */
+.vision {}
 
 .vision .inner {
   height: auto;
   margin: auto;
   padding: 30px 0 80px 0;
 }
+
+.vision .inner .title-group {}
+
+.vision .inner .title-group .sub-title {}
+
+.vision .inner .title-group h1 {}
 
 .vision .inner ul.vision {
   max-width: 1100px;
@@ -537,6 +602,83 @@ header .nav__button{
   text-align: center;
 }
 
+.vision .inner ul.vision > li .text-group h2 {}
+
+.vision .inner ul.vision > li .text-group p {}
+
+
+
+
+
+/* Contact us */
+/* .contact{
+  position: relative;
+  width:100%;
+  
+  height:700px;
+  background-color: midnightblue;
+}
+
+.contact .inner .contact__frame{
+  justify-content: center;
+  position: absolute;
+  height:450px;
+  width:100%;
+  margin:80px 0;
+  color:white;
+  font-weight: bold;
+  display:flex;
+}
+.contact .inner .contact__frame .contact__frame__left .title{
+  white-space:nowrap;
+}
+.contact .inner .contact__frame .table{
+  font-size: 25px;
+  margin-left:200px;
+}
+.contact .inner .contact__frame .title{
+  font-size:50px;
+  
+}
+.contact .inner .contact__frame .mail{
+  margin-top:10px;
+  font-size:20px;
+}
+.contact .inner .contact__frame .number{
+  font-size:20px;
+}
+.contact .inner .contact__frame .name__all{
+  display:flex;
+  font-size:16px;
+  margin-bottom:10px;
+}
+.contact .inner .contact__frame .guest__email{
+  margin-bottom:10px;
+}
+.contact .inner .contact__frame .message{
+  margin-bottom:10px;
+}
+.contact .inner .contact__frame .name__all .name__first{
+  margin-right:10px;
+}
+input{
+  width:250px;
+  height:40px;
+}
+.guest__email input{
+  width:518px;
+}
+
+textarea {
+  width:518px;
+  min-height: 100px;
+  resize: vertical;
+}
+
+.middle .contact .inner .contact__frame .table .click .button{
+
+  border-radius: 10px;
+} */
 
 /* Contact us */
 .contact {
@@ -640,7 +782,8 @@ footer .inner {
   color: white;
   font-family: 'Nanum Gothic';
 }
-
+footer .inner .companyname {
+}
 footer .inner .companyname .eng{
   font-family: 'Secular One';
   font-size: 25px;
@@ -673,6 +816,8 @@ footer .inner .copyright{
     height: 50px;
   }
   header .inner{
+    /* z-index: 1; */
+    /* position: fixed; */
     width:100%;
     position: relative;
   }
@@ -680,7 +825,7 @@ footer .inner .copyright{
     top: -15px;
   }
   header .inner .logo img {
-    width: 83.93px;
+    width: 80px;
     height: 30px;
   }
   header .inner .main__nav .nav{
@@ -698,11 +843,17 @@ footer .inner .copyright{
     border-bottom:4px solid rgb(69, 48, 138);
     align-items: center;
   }
-
+  /* .main__nav{
+    display:none;
+  } */
+  /* header .nav.click{
+    display:block;
+  } */
   header .inner .main__nav .nav .nav__name .solutions-nav{
     display:none;
     font-size:10px;
     opacity: 1;
+    
   }
   header .inner .main__nav .nav .nav__name .solutions-nav li{
     border:none;
@@ -718,6 +869,7 @@ footer .inner .copyright{
   header .inner .main__nav .nav a{
     font-size:20px;
     line-height:1.4;
+    /* top:20px; */
   }
   header .inner .main__nav .nav .nav__name .solutions-nav a{
     font-size:18px;
@@ -725,48 +877,136 @@ footer .inner .copyright{
   }
   header .inner .main__nav{
     width:100%;
+    /* height: 270px; */
     position:absolute;
     left:0;
     right:0px;
     margin:0 auto;
     top:130px;
+    /* opacity: 0; */
     display:none;
   }
   header .inner .main__nav .nav{
     position:absolute;
     left:0;
     right:0;
+    /* margin:0 auto; */
   }
   header .nav__button{
-    position: fixed;
+    /* z-index: 1; */
     display:block;
-    top:0;
+    top:10%;
     position: absolute;
   }
+  header .nav__button img{
+    width: 40px;
+    height: 40px;
+  }
+  /* header .nav.active{
+    display:flex;
+    
+  } */
   header .inner .main__nav.active{
     display:flex;
+
   }
   header .inner .main__nav .nav .nav__name{
+    /* height:70px; */
     width:200px;
     margin: 10px;
   }
   header .inner .main__nav .nav .nav__name .solutions-nav.active{
     display:block;
+    
   }
   header .inner .main__nav .nav.active2{
     height:230px;
   }
 
   header .inner .main__nav .nav #underline.active {
+    /* height:80px; */
     margin-bottom: 70px;
+    
+    
   }
   header .inner .main__nav .nav .nav__name a{
     color:black;
   }
+  /* header .inner .main__nav .nav .nav__name a:hover{
+    color:white;
+  }
+  header .inner .main__nav .nav .nav__name .aboutus{
+    color:#B7A4EE;
+  } */
+  /* #underline a:hover {
+    color: rgb(69, 48, 138);
+  } */
+  /* header .inner .main__nav .nav .nav__name .aboutus:hover {
+    color: rgb(69, 48, 138);
+  } */
   header .inner .main__nav .nav .nav__name :nth-child(1){
     margin-top:0;
   }
+  /* header .inner .main__nav .nav .nav__name .solutions-nav li a::after{
+    content:"";
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: white;
+  }
+  header .inner .main__nav .nav .nav__name .solutions-nav li a::before{
+    content:"";
+    position: absolute;
+    right: 50%;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: white;
+  }
+  header .inner .main__nav .nav .nav__name .solutions-nav li a:hover::after{
+    width:50%;
+  }
+  header .inner .main__nav .nav .nav__name .solutions-nav li a:hover:before{
+    width:50%;
+  }
+  #underline .solution::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    bottom: -4px;
+    background: white;
+    left:0;
+  }
+  header .inner .main__nav .nav .nav__name a::after{
+    content:"";
+    position: absolute;
+    left: 50%;
+    bottom: -4px;
+    width: 0;
+    height: 4px;
+    background-color: white;
+    
+  }
+  header .inner .main__nav .nav .nav__name a::before{
+    content:"";
+    position: absolute;
+    right: 50%;
+    bottom: -4px;
+    width: 0;
+    height: 4px;
+    background-color: white;
 
+  }
+  header .inner .main__nav .nav .nav__name a:hover::after{
+    width:50%;
+  }
+  header .inner .main__nav .nav .nav__name a:hover::before{
+    width:50%;
+  } */
 
   /* ABOUTUS header */
   .aboutus-header .inner2 {
@@ -779,7 +1019,9 @@ footer .inner .copyright{
     height: 350px;
     width: 100%;
   }
-
+  .aboutus-header .inner2 .title-wrapper {
+    
+  }
   .aboutus-header .inner2 .title-wrapper .title {
     width: 100%;
     bottom: -15%;
@@ -789,6 +1031,9 @@ footer .inner .copyright{
     text-align: center;
     font-size: 50px;
     line-height: 1;
+  }
+  .aboutus-header .inner2 .title-wrapper .aboutus-wrapper {
+    
   }
   .aboutus-header .inner2 .title-wrapper .aboutus-wrapper ul.aboutus-menu{
     width: 100%;
@@ -804,8 +1049,12 @@ footer .inner .copyright{
 
   /* INTRODUCTION */
   .company-overview {
+    /* position: relative; */
     width: 100%;
     height: auto;
+  }
+  .company-overview .inner .title-group {
+
   }
   .company-overview .inner .title-group h1 {
     font-size: 30px;
@@ -813,16 +1062,22 @@ footer .inner .copyright{
     text-align: center;
   }
   .company-overview .inner .description-group {
+    /* position: absolute; */
+    /* position: relative; */
     display: block;
+    /* clear: left; */
     width: 100%;
+    
   }
 
   .company-overview .inner .description-group .image-group {
+    /* background-color: orange; */
     position: relative;
     margin: 0 auto;
     padding: 0;
-    width: 350px;
-    height: 310px;
+    width: 300px;
+    height: 260px;
+    
   }
   .company-overview .inner .description-group .image-group img.logo {
     justify-content: center;
@@ -834,12 +1089,14 @@ footer .inner .copyright{
     width: 100%;
     height: 200px;
     margin: 0 auto;
+    /* background-color: aqua; */
   }
   .company-overview .inner .description-group .text-group p {
     font-size: 20px;
   }
 
   /* OUR MANAGEMENT */
+  
   .our-management .inner .title-group h1{
     font-size: 30px;
   }
@@ -879,12 +1136,16 @@ footer .inner .copyright{
     width: 100%;
     height: 200px;
     margin: 0 auto;
+    /* background-color: aqua; */
   }
   .management-philosophy .inner .description-group .text-group p {
     font-size: 20px;
   }
 
   /* VISION */
+  .vision {
+
+  }
   .vision .inner {
     height: 1100px;
   }
