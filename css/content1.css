@@ -91,11 +91,12 @@ header .inner {
   margin: 0 auto;
 }
 header .inner .logo{
+  height: 42px;
   position: absolute;
   top:0;
   bottom:0;
   left:10px;
-  margin:25px 0;
+  margin:auto;
   
 }
 header .inner .logo img {
