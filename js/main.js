@@ -1,57 +1,44 @@
-// new Swiper('.partners .swiper-container', {
-//   direction: 'horizontal', // 수평 슬라이드
-//   autoplay: true, // 자동 재생 여부
-//   loop: true, // 반복 재생 여부
-//   spaceBetween: 30, // 슬라이드 사이 여백
-//   slidesPerView: 5, // 한 번에 보여줄 슬라이드 개수
-//   // slidesPerGroup: 5, // 한 번에 슬라이드 할 개수(전체 개수로 나뉘어야 함)
-//   navigation: { // 슬라이드 이전/다음 버튼 사용 여부
-//     prevEl: '.partners .swiper-prev', // 이전 버튼 선택자
-//     nextEl: '.partners .swiper-next' // 다음 버튼 선택자
-//   }
-// })
-
-// new Swiper('.awards .swiper-container', {
-//   direction: 'horizontal', // 수평 슬라이드
-//   autoplay: true, // 자동 재생 여부
-//   loop: true, // 반복 재생 여부
-//   spaceBetween: 30, // 슬라이드 사이 여백
-//   slidesPerView: 3, // 한 번에 보여줄 슬라이드 개수
-//   // slidesPerGroup: 5, // 한 번에 슬라이드 할 개수(전체 개수로 나뉘어야 함)
-//   navigation: { // 슬라이드 이전/다음 버튼 사용 여부
-//     prevEl: '.awards .swiper-prev', // 이전 버튼 선택자
-//     nextEl: '.awards .swiper-next' // 다음 버튼 선택자
-//   }
-// })
-
 //<!-- Initialize Swiper -->
 var swiper = new Swiper(".mySwiper", {
   effect: "coverflow",
-  grabCursor: true,
-  centeredSlides: true,
-  slidesPerView: "auto",
   coverflowEffect: {
-  rotate: 50,
-  stretch: 0,
-  depth: 100,
-  modifier: 1,
-  slideShadows: true,
+    rotate: 50,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows: false,
+  },
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false
   },
   loop: true,
-  autoplay: true,
+  slidesPerView: "auto",
+  spaceBetween: 10,
+  centeredSlides: true,
+  // pagination: {
+  //   el: '.swiper-wrapper .swiper-slide img',
+  //   clickable: true
+  // },
   pagination: {
-  el: ".swiper-pagination",
+    el: '.swiper-pagination',
+    clickable: true
   },
+  navigation: { // 슬라이드 이전/다음 버튼 사용 여부
+    prevEl: '.swiper .swiper-prev', // 이전 버튼 선택자
+    nextEl: '.swiper .swiper-next' // 다음 버튼 선택자
+  }
 });
+
 
 const spyEls = document.querySelectorAll('section.scroll-spy')
 spyEls.forEach(function (spyEl) {
   new ScrollMagic
-    .Scene({ 
-      triggerElement: spyEl, 
+    .Scene({
+      triggerElement: spyEl,
       triggerHook: .7 
     })
-    .setClassToggle(spyEl, 'show')
+    .setClassToggle(spyEl, 'show') 
     .addTo(new ScrollMagic.Controller())
 })
 

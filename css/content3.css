@@ -486,30 +486,40 @@ header .nav__button{
 
 .awards .inner {
   height: 700px;
-  padding: 20px 0 100px 0;
+  padding: 40px 0 50px 0;
   margin: auto;
   overflow: hidden;
+}
+.awards .inner .title-group h1 {
+  padding: 10px 0 30px;
 }
 
 .awards .inner .swiper {
   position: absolute;
   width: 100%;
-  height: 380px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
   overflow: hidden;
 }
 
 .awards .inner .swiper .swiper-slide {
+  /* margin: auto; */
+  padding: 50px 0;
   background-position: center;
   background-size: cover;
-  width: 300px;
-  height: 300px;
+  width: 600px;
+  height: auto;
+  opacity: .5;
+}
+.awards .inner .swiper .swiper-slide-active {
+  opacity: 1;
 }
 
 .awards .inner .swiper .swiper-slide img {
   display: block;
   width: 100%;
+  box-shadow: 0px 0px 5px #444
 }
 
 .awards .inner .swiper .swiper-slide p {
@@ -531,6 +541,40 @@ header .nav__button{
 }
 
 .awards .swiper-pagination {}
+
+.awards .swiper .swiper-prev,
+.awards .swiper .swiper-next {
+  width: 42px;
+  height: 42px;
+  outline: none;
+  border: 2px solid #333;
+  border-radius: 50%;
+  position: absolute;
+  /* Swiper Container 높이의 절반만큼 끌어올림 */
+  /* 버튼 높이의 절반만큼 추가로 끌어올림 */
+  top: 300px;
+  z-index: 1;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .4s;
+}
+.awards .swiper .swiper-prev {
+  top: 200px;
+  left: 55%;
+  margin-left: -480px;
+}
+.awards .swiper .swiper-next {
+  top: 200px;
+  right: 55%;
+  margin-right: -480px;
+}
+.awards .swiper .swiper-prev:hover,
+.awards .swiper .swiper-next:hover {
+  background-color: #333;
+  color: #fff;
+}
 
 
 
@@ -655,7 +699,7 @@ footer .inner .copyright{
     position: relative;
   }
   header .inner .logo {
-    top: -15px;
+    top: -45px;
   }
   header .inner .logo img {
     width: 80px;
@@ -926,7 +970,7 @@ footer .inner .copyright{
 
   /* AWARDS */
   .awards .inner {
-    height: 470px;
+    height: 400px;
   }
 
   .awards .inner .title-group h1 {
@@ -935,12 +979,17 @@ footer .inner .copyright{
 
   .awards .inner .swiper {
     width: 100%;
-    max-height: 250px;
+    max-height: 300px;
+  }
+  .awards .inner .swiper .swiper-wrapper {
+    height: 400px;
   }
 
-  .awards .inner .swiper .swiper-slide {
-    max-width: 200px;
+  .awards .inner .swiper .swiper-wrapper .swiper-slide {
+    max-width: 250px;
     max-height: 200px;
+  }
+  .awards .inner .swiper .swiper-wrapper .swiper-pagination {
   }
   /* footer */
   footer .inner .companyname .eng{
