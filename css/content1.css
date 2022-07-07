@@ -1070,6 +1070,7 @@ footer .inner .copyright{
   }
   .vision .inner .text-group p {
     font-size: 20px;
+    padding: 0 10px;
   }
   .vision .inner ul.vision {
     display: block;
