@@ -371,7 +371,9 @@ header .nav__button{
   text-align: center;
 }
 
-.history-list-box {}
+.history-list-box {
+  padding: 10px;
+}
 
 .history-list-box .history-year-box {
   position: relative;
@@ -486,7 +488,7 @@ header .nav__button{
 
 .awards .inner {
   height: 700px;
-  padding: 40px 0 50px 0;
+  padding: 40px 0 30px 0;
   margin: auto;
   overflow: hidden;
 }
